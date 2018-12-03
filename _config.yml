@@ -4,7 +4,7 @@ SEOTitle: 蒋帅的博客 | JS Blog
 header-img: img/post-bg-desk.jpg
 email: 184284504@qq.com
 description: "Success is not final."
-keyword: "JS Blog, 蒋帅的博客, jiangshuai, 邱柏荧, Postgresql, DBA"
+keyword: "JS Blog, 蒋帅的博客, jiangshuai,Postgresql, DBA"
 url: "http://jiangshuai1995.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/jiangshuai1995/jiangshuai1995.github.io.git" # you code repository
