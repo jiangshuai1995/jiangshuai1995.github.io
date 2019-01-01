@@ -1,4 +1,0 @@
-Configuration file: C:/Users/Jiang/Documents/GitHub/jiangshuai1995.github.io/_config.yml
-       Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly.
-  Dependency Error: Yikes! It looks like you don't have jekyll-paginate or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. The full error message from Ruby is: 'cannot load such file -- jekyll-paginate' If you run into trouble, you can find helpful resources at https://jekyllrb.com/help/!
-jekyll 3.8.5 | Error:  jekyll-paginate
