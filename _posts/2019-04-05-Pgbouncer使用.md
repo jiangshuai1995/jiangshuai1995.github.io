@@ -8,7 +8,7 @@ header-img: img/view.jpg
 catalog:    true
 tags:
      - pgbouncer
-     - postgresql
+     - Postgresql
 ---
 
 ## 背景
