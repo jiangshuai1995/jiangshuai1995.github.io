@@ -25,9 +25,9 @@ Pgbouncer服务器 192.168.250.33 CentOS7.3
 
 ## 安装过程
 
->由于该服务器已经预装了libevent及libevent-devel，故该步骤跳过
-
 #### 安装依赖
+
+>由于该服务器已经预装了libevent及libevent-devel，故该步骤跳过
 
 `yum install -y libevent libevent-devel`
 
@@ -92,7 +92,7 @@ default_pool_size = 20
 ```
 并且/home/gpadmin目录下出现log及pid文件可以认为启动成功
 
-##　连接测试
+## 连接测试
 
 使用如下命令
 `psql -p 6432 pgbouncer` 测试内置pgbouncer能否连接
