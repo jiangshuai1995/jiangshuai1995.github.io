@@ -27,7 +27,7 @@ Pgbouncer服务器 192.168.250.33 CentOS7.3 (包含pgbench工具)
 
 数据库服务器上执行
 
-`pgbench -i -F 100 -s 500 testdb `
+`pgbench -i -F 100 -s 500 testdb`
 
 如果没有该数据库请先创建
 
@@ -68,7 +68,7 @@ tps = 742.852783 (excluding connections establishing)
 
 ```
 [gpadmin@master ~]$ pgbench -c 10 -C -T 120 -N  -h 192.168.251.230  -p 1328 testdb
-Password: 
+Password:
 starting vacuum...end.
 transaction type: <builtin: simple update>
 scaling factor: 500
@@ -101,7 +101,7 @@ tps = 78.877217 (excluding connections establishing)
 
 ```
 [gpadmin@master ~]$ pgbench -c 50 -C -T 120 -N  -h 192.168.251.230  -p 1328 testdb
-Password: 
+Password:
 starting vacuum...end.
 transaction type: <builtin: simple update>
 scaling factor: 500
@@ -130,7 +130,39 @@ tps = 114.912709 (including connections establishing)
 tps = 114.966602 (excluding connections establishing)
 ```
 
+#### Test4
 
+使用Beyondb5s进行测试
+
+```
+[gpadmin@master ~]$ pgbench -c 50 -C -T 120 -N  -h 192.168.250.33  -p 6432 beyondb
+starting vacuum...end.
+transaction type: <builtin: simple update>
+scaling factor: 500
+query mode: simple
+number of clients: 50
+number of threads: 1
+duration: 120 s
+number of transactions actually processed: 16200
+latency average = 370.692 ms
+tps = 134.882772 (including connections establishing)
+tps = 134.953852 (excluding connections establishing)
+```
+
+```
+[gpadmin@master ~]$ pgbench -c 50 -C -T 120 -N  -h 192.168.250.33  -p 6432 beyondb
+starting vacuum...end.
+transaction type: <builtin: simple update>
+scaling factor: 500
+query mode: simple
+number of clients: 50
+number of threads: 1
+duration: 120 s
+number of transactions actually processed: 16200
+latency average = 370.692 ms
+tps = 134.882772 (including connections establishing)
+tps = 134.953852 (excluding connections establishing)
+```
 
 ## 结论
 
