@@ -24,15 +24,15 @@ tags:
 
 4. 添加如下内容
 
-```
-{
-    "window.zoomLevel": 0,
-    "markdown-pdf.executablePath": "C:\\Users\\Jiangs\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe",
-    "markdown-pdf.outputDirectory": "D:\\文档"
-}
-```
+    ```
+    {
+        "window.zoomLevel": 0,
+        "markdown-pdf.executablePath": "C:\\Users\\Jiangs\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe",
+        "markdown-pdf.outputDirectory": "D:\\文档"
+    }
+    ```
 
-其中executablePath为chrome浏览器地址，outputDirectory为输出文件的目录
+    其中executablePath为chrome浏览器地址，outputDirectory为输出文件的目录
 
 5. 在任意一个markdown文件中（以md为后缀），右键 *Markdown PDF：Export(pdf)*即可
 
