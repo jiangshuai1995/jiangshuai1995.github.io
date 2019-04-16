@@ -2,7 +2,7 @@
 layout:    post
 title:     Markdown转PDF
 subtitle:   "使用VSCode将md转为PDF"
-date:       2019-04-10
+date:       2019-04-12
 author:     Jiangs
 header-img: img/view.jpg
 catalog:    true
