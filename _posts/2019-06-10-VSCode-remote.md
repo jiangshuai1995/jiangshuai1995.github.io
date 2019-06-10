@@ -35,7 +35,7 @@ Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
 
 #### 配置密钥
 
-cmd执行 `ssh-keygen -t` 会在用户目录下生成密钥文件
+cmd执行 `ssh-keygen -t rsa` 会在用户目录下生成密钥文件
 
 例如我的目录是 C:\Users\Jiangs\ .ssh
 
