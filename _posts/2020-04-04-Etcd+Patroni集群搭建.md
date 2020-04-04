@@ -1,3 +1,17 @@
+---
+layout:     post
+title:      Etcd+Patroni集群搭建
+subtitle:   利用ETCD+Patroni搭建PG高可用集群
+date:       2020-04-04
+author:     JS
+header-img: img/post-bg-2015.jpg
+catalog: true
+tags:
+    - Postgresql
+    - HA
+---
+
+
 ## ETCD + Patroni
 
 ### 服务器设置 
